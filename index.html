@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Artysty - Twoje Imię</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Strona Główna</a></li>
+                <li><a href="#about">O Mnie</a></li>
+                <li><a href="#gallery">Galeria</a></li>
+                <li><a href="#shop">Sklep</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home">
+        <div class="hero">
+            <img src="your-artwork.jpg" alt="Twoja praca">
+            <h1>Witaj w mojej galerii</h1>
+            <p>Twój opis lub motto artystyczne</p>
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>O Mnie</h2>
+        <p>Krótka biografia, opis twórczości i inspiracji.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Galeria</h2>
+        <div class="gallery-grid">
+            <img src="artwork1.jpg" alt="Praca 1">
+            <img src="artwork2.jpg" alt="Praca 2">
+            <!-- Dodaj więcej prac -->
+        </div>
+    </section>
+
+    <section id="shop">
+        <h2>Sklep</h2>
+        <p>Prace do sprzedaży (opcjonalnie)</p>
+        <!-- Możesz dodać linki do platform sprzedaży, takich jak Etsy -->
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="#" method="post">
+            <label for="name">Imię:</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="message">Wiadomość:</label>
+            <textarea id="message" name="message" required></textarea>
+            
+            <button type="submit">Wyślij</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Twoje Imię</p>
+        <ul>
+            <li><a href="https://instagram.com">Instagram</a></li>
+            <li><a href="https://facebook.com">Facebook</a></li>
+            <!-- Dodaj inne linki do social media -->
+        </ul>
+    </footer>
+</body>
+</html>
